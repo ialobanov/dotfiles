@@ -1,13 +1,16 @@
 # Starship
 
+## Windows
 ```powershell
 vim $env:USERPROFILE\starship.toml
 ```
 
+## UNIX
 ```shell
 vim ~/.config/starship.toml
 ```
 
+## Config
 ```toml
 format = """
 $hostname\
