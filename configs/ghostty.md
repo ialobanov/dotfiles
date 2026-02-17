@@ -2,7 +2,7 @@
 
 ## Windows
 ```powershell
-mkdir $env:USERPROFILE\ghostty\; vim $env:USERPROFILE\ghostty\config
+mkdir -p $env:USERPROFILE\ghostty\.config\; vim $env:USERPROFILE\ghostty\config
 
 ```
 
