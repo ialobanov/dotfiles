@@ -19,9 +19,9 @@ $time\
 $directory\
 $git_branch\
 $git_status\
+$lua\
 $fill\
 $battery\
-$lua\
 $jobs\
 $new_line
 $docker_context\
@@ -75,13 +75,12 @@ disabled = false
 format = '[$time]($style)'
 time_format = '%H:%M'
 style = 'bold yellow'
-
-[fill]
-symbol = ' '
-
 [lua]
 format = 'via [$symbol($version )]($style)'
 symbol = ' '
+
+[fill]
+symbol = ' '
 
 [jobs]
 symbol = ' '
