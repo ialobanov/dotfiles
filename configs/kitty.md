@@ -21,7 +21,6 @@ window_padding_width 6
 remember_window_position yes
 background_opacity 0.9
 background_blur 45
-enable_audio_bell no
 sync_to_monitor yes
 tab_bar_style fade
 tab_title_max_length 30
@@ -29,6 +28,9 @@ dim_opacity 0.4
 macos_quit_when_last_window_closed yes
 confirm_os_window_close 0
 hide_window_decorations titlebar-only
+# behaviour
+enable_audio_bell no
+macos_dock_badge_on_bell no
 # maps
 mouse_map right press ungrabbed paste_from_clipboard
 copy_on_select yes
