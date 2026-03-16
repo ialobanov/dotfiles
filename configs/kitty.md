@@ -31,6 +31,7 @@ macos_quit_when_last_window_closed yes
 confirm_os_window_close 0
 enable_audio_bell no
 macos_dock_badge_on_bell no
+paste_actions quote-urls-at-prompt,replace-dangerous-control-codes,confirm-if-large
 # maps
 mouse_map right press ungrabbed paste_from_clipboard
 copy_on_select yes
