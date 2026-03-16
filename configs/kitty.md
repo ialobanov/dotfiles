@@ -25,10 +25,10 @@ sync_to_monitor yes
 tab_bar_style fade
 tab_title_max_length 30
 dim_opacity 0.4
-macos_quit_when_last_window_closed yes
-confirm_os_window_close 0
 hide_window_decorations titlebar-only
 # behaviour
+macos_quit_when_last_window_closed yes
+confirm_os_window_close 0
 enable_audio_bell no
 macos_dock_badge_on_bell no
 # maps
