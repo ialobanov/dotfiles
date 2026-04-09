@@ -4,4 +4,5 @@
 - [wezterm](./configs/wezterm.md)
 - [nvim](./configs/nvim.md)
 - [kitty](./configs/kitty.md)
+- [.zprofile](./configs/zprofile.md)
 - [.zshrc](./configs/zshrc.md)
