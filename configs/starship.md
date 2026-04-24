@@ -23,15 +23,6 @@ read_only_style	= 'red'
 
 [git_status]
 style = 'bold green'
-conflicted = '🏳'
-ahead = '🏎💨'
-behind = '😰'
-diverged = '😵'
 up_to_date = '✓($style)'
-untracked = '🤷'
-stashed = '📦'
-modified = '📝'
 staged = '[++\($count\)](green)'
-renamed = '👅'
-deleted = '🗑'
 ```
