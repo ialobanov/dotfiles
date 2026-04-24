@@ -32,7 +32,3 @@ Host *
     UpdateHostKeys yes
     IdentityFile none
     SetEnv TERM=xterm-256color
-
-# hosts group
-include ssh_config_qrator
-```
