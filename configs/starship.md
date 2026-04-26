@@ -24,5 +24,15 @@ read_only_style	= 'red'
 [git_status]
 style = 'bold green'
 up_to_date = '✓($style)'
-staged = '[++\($count\)](green)'
+
+
+[status]
+style = 'bg:blue'
+symbol = '🔴 '
+format = '[\[$symbol$common_meaning$signal_name$maybe_int\]]($style) '
+map_symbol = true
+disabled = false
+
+[cmd_duration]
+disabled = true
 ```
