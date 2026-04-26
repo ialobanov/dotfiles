@@ -25,13 +25,6 @@ read_only_style	= 'red'
 style = 'bold green'
 up_to_date = '✓($style)'
 
-[status]
-style = 'bg:blue'
-symbol = '🔴 '
-format = '[\[$symbol$common_meaning$signal_name$maybe_int\]]($style) '
-map_symbol = true
-disabled = false
-
 [cmd_duration]
 disabled = true
 ```
