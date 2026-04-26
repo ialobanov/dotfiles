@@ -25,7 +25,6 @@ read_only_style	= 'red'
 style = 'bold green'
 up_to_date = '✓($style)'
 
-
 [status]
 style = 'bg:blue'
 symbol = '🔴 '
