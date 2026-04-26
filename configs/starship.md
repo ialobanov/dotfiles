@@ -2,12 +2,12 @@
 
 ## Windows
 ```powershell
-vim $env:USERPROFILE\starship.toml
+$env:USERPROFILE\starship.toml
 ```
 
 ## UNIX
 ```shell
-vim ~/.config/starship.toml
+~/.config/starship.toml
 ```
 
 ## Config
