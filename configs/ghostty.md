@@ -18,24 +18,16 @@ theme = Whimsy
 shell-integration = zsh
 window-save-state = always
 
-background-opacity = 0.96
-background-blur-radius = 20
-
-font-family = "JetBrainsMono Nerd Font Mono"
-font-size = 24
+font-family = "JetBrainsMonoNL NFM Bold"
+font-style-bold = true
+font-size = 26
 
 window-padding-x = 20
 window-vsync = true
-adjust-cursor-thickness = 13
 cursor-color = "#FFC300"
 cursor-style-blink = true
 window-inherit-working-directory = false
+tab-inherit-working-directory = false
 working-directory = "home"
 macos-titlebar-style = tabs
-```
-
-Color for 3 & 11
-
-```shell
-zed /Applications/Ghostty.app/Contents/Resources/ghostty/themes/Whimsy
 ```
