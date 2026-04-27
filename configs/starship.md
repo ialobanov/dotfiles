@@ -13,13 +13,13 @@ $env:USERPROFILE\starship.toml
 ## Config
 ```toml
 [character]
-success_symbol = '[➜](bold green) '
-error_symbol = '[✗](bold red) '
+success_symbol = '[➜](bold green)'
+error_symbol = '[➜](green)'
 
 [directory]
 truncation_length = 0
-read_only	= '🔒'
-read_only_style	= 'red'
+read_only = '🔒'
+read_only_style = 'red'
 
 [git_status]
 style = 'bold green'
