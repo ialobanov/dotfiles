@@ -15,19 +15,15 @@ mkdir -p $HOME/.config/ghostty && vim $HOME/.config/ghostty/config
 ```properties
 term = xterm-256color
 theme = Whimsy
-shell-integration = zsh
 window-save-state = always
-
-font-family = "JetBrainsMonoNL NFM Bold"
-font-style-bold = true
-font-size = 26
-
+font-family = "JetBrainsMonoNL Nerd Font Mono"
+font-size = 24
 window-padding-x = 20
 window-vsync = true
-cursor-color = "#FFC300"
 cursor-style-blink = true
 window-inherit-working-directory = false
 tab-inherit-working-directory = false
 working-directory = "home"
-macos-titlebar-style = tabs
+macos-titlebar-style = transparent
+macos-window-buttons = hidden
 ```
