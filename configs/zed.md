@@ -3,7 +3,7 @@
 ## UNIX
 
 ```shell
-$HOME/.config/ghostty/config
+$HOME/.config/zed/settings.json
 ```
 
 ## Config
