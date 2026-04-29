@@ -1,6 +1,7 @@
 # ghostty
 
 ## Windows
+
 ```powershell
 mkdir -p $env:USERPROFILE\ghostty\.config\; vim $env:USERPROFILE\ghostty\config
 
@@ -12,6 +13,7 @@ mkdir -p $HOME/.config/ghostty && vim $HOME/.config/ghostty/config
 ```
 
 ## Config
+
 ```properties
 term = xterm-256color
 theme = Whimsy

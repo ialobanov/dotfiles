@@ -7,3 +7,4 @@
 - [zprofile](./configs/zprofile.md)
 - [zshrc](./configs/zshrc.md)
 - [ssh](./configs/ssh.md)
+- [zed](./configs/zed.md)
