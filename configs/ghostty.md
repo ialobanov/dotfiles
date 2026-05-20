@@ -16,7 +16,7 @@ mkdir -p $HOME/.config/ghostty && vim $HOME/.config/ghostty/config
 
 ```properties
 term = xterm-256color
-theme = Snazzy
+theme = Whimsy
 window-save-state = always
 font-family = "JetBrainsMonoNL Nerd Font Mono"
 font-size = 24
