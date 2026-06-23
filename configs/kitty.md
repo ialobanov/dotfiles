@@ -52,6 +52,7 @@ map cmd+м paste_from_clipboard
 map f1 combine : clear_terminal scrollback active : send_text normal,application \f
 map f2 load_config_file
 map f3 send_text all exit\r
+map f5 send_text all gsh\r
 
 # tabs maps
 map Cmd+1 goto_tab 1
