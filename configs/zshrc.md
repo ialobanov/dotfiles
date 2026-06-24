@@ -74,7 +74,7 @@ prv() {
 
 ua() {
     brew update &&
-    HOMEBREW_NO_INSTALL_CLEANUP=1 brew upgrade &&
+    brew upgrade -y &&
     brew cleanup
 }
 
