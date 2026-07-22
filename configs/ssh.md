@@ -1,20 +1,18 @@
 # SSH
 
-Windows:
-
-```powershell
-$env:USERPROFILE\.ssh\config
-```
-
-
-UNIX:
+## UNIX
 
 ```sh
 ~/.ssh/config
 ```
 
+## Windows
 
-Configuration:
+```powershell
+$env:USERPROFILE\.ssh\config
+```
+
+## Configuration
 
 ```ini
 # main ssh configuration
@@ -32,3 +30,4 @@ Host *
     UpdateHostKeys yes
     IdentityFile none
     SetEnv TERM=xterm-256color
+```

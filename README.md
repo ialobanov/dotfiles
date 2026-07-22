@@ -1,4 +1,6 @@
 # dotfiles
+
+- [gitconfig](./configs/gitconfig.md)
 - [ghostty](./configs/ghostty.md)
 - [starship](./configs/starship.md)
 - [wezterm](./configs/wezterm.md)
