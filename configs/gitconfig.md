@@ -44,7 +44,7 @@ Add configuration:
 Create:
 
 ```powershell
-vim $env:USERPROFILE\.ginconfig
+vim $env:USERPROFILE\.gitconfig
 ```
 
 Add configuration:
