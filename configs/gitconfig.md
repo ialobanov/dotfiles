@@ -1,4 +1,4 @@
-# ginconfig
+# .gitconfig
 
 ## UNIX
 
