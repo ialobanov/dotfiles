@@ -2,11 +2,13 @@
 
 ## Windows
 
+Create directory:
+
 ```powershell
 if (!(Test-Path "$env:USERPROFILE\AppData\Local\nvim")) { New-Item -Path "$env:USERPROFILE\AppData\Local\nvim" -ItemType Directory -Force }
 ```
 
-## Config
+Add config:
 
 ```shell
 git clone https://github.com/ialobanov/nvim-plain.git $env:USERPROFILE\AppData\Local\nvim
