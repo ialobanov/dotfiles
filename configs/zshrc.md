@@ -55,7 +55,7 @@ gsh() {
 }
 
 ssv() {
-    cd "$HOME/solidsoft/ss-vault/" || return
+    cd "$HOME/Solidsoft/Projects/solidwall-vault/" || return
     git add .
     { git commit -m "Work with repository" || true; } &&
     git push
@@ -63,8 +63,8 @@ ssv() {
     clear
 }
 
-prv() {
-    cd "$HOME/pr-vault/" || return
+myv() {
+    cd "$HOME/Projects/my-vault/" || return
     git add .
     { git commit -m "Work with repository" || true; } &&
     git push
