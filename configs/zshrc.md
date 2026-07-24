@@ -1,14 +1,5 @@
-# .zshrc
+# ~/.zshrc
 
-## UNIX
-
-```shell
-vim ~/.zshrc
-```
-
-## Config
-
-```ini
 # history
 if [ -z "$HISTFILE" ]; then
   HISTFILE="$HOME/.zsh_history"
@@ -84,4 +75,8 @@ source <(fzf --zsh)
 # external tools
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
-```
+
+# proxy
+export http_proxy=http://10.24.0.254:10888
+export https_proxy=$http_proxy
+export no_proxy="10.24.0.0/24"
