@@ -12,6 +12,9 @@ $env:USERPROFILE\starship.toml
 
 ## Config
 ```toml
+# ~/.config/starship.toml
+command_timeout = 1000
+
 [character]
 success_symbol = '[➜](bold green)'
 error_symbol = '[➜](green)'
