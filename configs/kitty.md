@@ -92,9 +92,9 @@ url_color #85b6ff
 
 tab_bar_background #1f1f2a
 active_tab_foreground #bdc3df
-active_tab_background #5d6980
-inactive_tab_foreground #4d576b
-inactive_tab_background #1f1f2a
+active_tab_background #45457
+inactive_tab_foreground #4a4a81
+inactive_tab_background #2f2f51
 
 color0  #5d6980
 color1  #ff568e
