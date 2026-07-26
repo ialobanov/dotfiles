@@ -3,7 +3,7 @@
 ## UNIX
 
 ```sh
-~/.zprofile
+vi ~/.zprofile
 ```
 
 ## Config
