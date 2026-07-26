@@ -86,5 +86,5 @@ eval "$(zoxide init zsh)"
 # proxy
 export http_proxy=http://10.24.0.254:10888
 export https_proxy=$http_proxy
-export no_proxy="10.24.0.0/24"
+export no_proxy="10.24.0.0/24, .yandex.net, sloidwall.io"
 ```
