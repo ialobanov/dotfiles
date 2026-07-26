@@ -1,3 +1,8 @@
+```sh
+vi ~/.zshrc
+```
+
+```sh
 # ~/.zshrc
 
 # history
@@ -82,3 +87,4 @@ eval "$(zoxide init zsh)"
 export http_proxy=http://10.24.0.254:10888
 export https_proxy=$http_proxy
 export no_proxy="10.24.0.0/24"
+```
