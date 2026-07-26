@@ -7,7 +7,7 @@ $env:USERPROFILE\starship.toml
 
 ## UNIX
 ```shell
-~/.config/starship.toml
+vim ~/.config/starship.toml
 ```
 
 ## Config
