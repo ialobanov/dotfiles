@@ -3,6 +3,7 @@
 ## UNIX
 
 ```sh
+mkdir -p ~/.ssh
 vi ~/.ssh/config
 ```
 
