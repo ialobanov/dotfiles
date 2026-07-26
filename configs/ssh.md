@@ -3,7 +3,7 @@
 ## UNIX
 
 ```sh
-~/.ssh/config
+vi ~/.ssh/config
 ```
 
 ## Windows
