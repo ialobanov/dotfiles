@@ -47,7 +47,7 @@ alias vkh='nvim .ssh/known_hosts'
 # functions
 gsh() {
     git add . &&
-    git commit -m "Work with repository" &&
+    git commit -m "." &&
     git push &&
     clear
 }
@@ -55,7 +55,7 @@ gsh() {
 ssv() {
     cd "$HOME/Solidsoft/Projects/solidwall-vault/" || return
     git add .
-    { git commit -m "Work with repository" || true; } &&
+    { git commit -m "Update vault" || true; } &&
     git push
     cd "$HOME" &&
     clear
@@ -64,7 +64,7 @@ ssv() {
 myv() {
     cd "$HOME/Projects/my-vault/" || return
     git add .
-    { git commit -m "Work with repository" || true; } &&
+    { git commit -m "Update vault" || true; } &&
     git push
     cd "$HOME" &&
     clear
