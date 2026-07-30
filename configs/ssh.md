@@ -3,14 +3,14 @@
 ## UNIX
 
 ```sh
-mkdir -p ~/.ssh
-vi ~/.ssh/config
+mkdir -p ~/.ssh && vi ~/.ssh/config
 ```
 
 ## Windows
 
 ```powershell
-$env:USERPROFILE\.ssh\config
+if (!(Test-Path "$env:USERPROFILE\.ssh")) { New-Item -Path "$env:USERPROFILE\.ssh" -ItemType Directory -Force }
+vim $env:USERPROFILE\.ssh\config
 ```
 
 ## Configuration
