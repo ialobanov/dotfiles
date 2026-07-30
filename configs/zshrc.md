@@ -58,7 +58,7 @@ ssv() {
     git add .
     { git commit -m "Update vault" || true; } &&
     git push
-    cd "$HOME" &&
+    cd - &&
     clear
 }
 
@@ -67,7 +67,7 @@ myv() {
     git add .
     { git commit -m "Update vault" || true; } &&
     git push
-    cd "$HOME" &&
+    cd - &&
     clear
 }
 
