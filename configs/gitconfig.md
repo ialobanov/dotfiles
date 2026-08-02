@@ -35,7 +35,7 @@ Add configuration:
 [fetch]
   prune = true
 
-[includeIf "gitdir:/Users/ivan/Solidsoft/"]
+[includeIf "gitdir:/Users/ivan/solidsoft/"]
   path = /Users/ivan/.gitconfig-work
 ```
 
