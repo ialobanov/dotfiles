@@ -5,7 +5,6 @@
 - [kitty](./configs/kitty.md)
 - [nvim](./configs/nvim.md)
 - [ssh](./configs/ssh.md)
-- [starship](./configs/starship.md)
 - [vscode](./configs/vscode.md)
 - [wezterm](./configs/wezterm.md)
 - [zed](./configs/zed.md)
