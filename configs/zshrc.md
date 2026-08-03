@@ -25,12 +25,14 @@ setopt HIST_IGNORE_SPACE
 setopt HIST_REDUCE_BLANKS
 setopt INC_APPEND_HISTORY
 
-if type brew &>/dev/null; then
+# homebrew completions
+if (( $+commands[brew] )); then
     fpath=("$(brew --prefix)/share/zsh/site-functions" $fpath)
-
-    autoload -Uz compinit
-    compinit -d ~/.zcompdump
 fi
+
+# completion
+autoload -Uz compinit
+compinit -d ~/.zcompdump
 
 # alias
 alias vim='nvim'
@@ -82,10 +84,8 @@ ua() {
     brew cleanup
 }
 
-# fzf (Ctrl+R fuzzy search)
+# prompt
 source <(fzf --zsh)
-
-# external tools
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
 
@@ -94,6 +94,6 @@ export http_proxy=http://10.24.0.254:10888
 export https_proxy=$http_proxy
 export HTTP_PROXY="$http_proxy"
 export HTTPS_PROXY="$https_proxy"
-export no_proxy="localhost,127.0.0.1,::1,10.24.0.0/24,.yandex.net,.solidwall.io"
+export no_proxy="10.24.0.0/24,.yandex.net,.solidwall.io"
 export NO_PROXY="$no_proxy"
 ```
