@@ -29,7 +29,7 @@ if type brew &>/dev/null; then
     fpath=("$(brew --prefix)/share/zsh/site-functions" $fpath)
 
     autoload -Uz compinit
-    compinit -C -d ~/.zcompdump
+    compinit -d ~/.zcompdump
 fi
 
 # alias
