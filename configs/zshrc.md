@@ -1,6 +1,6 @@
 
 ```sh
-sudo chmod -R g-w,o-w /opt/homebrew/share
+sudo chmod go-w /opt/homebrew/share
 ```
 
 ```sh
@@ -26,10 +26,10 @@ setopt HIST_REDUCE_BLANKS
 setopt INC_APPEND_HISTORY
 
 if type brew &>/dev/null; then
-    FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
+    fpath=("$(brew --prefix)/share/zsh/site-functions" $fpath)
 
     autoload -Uz compinit
-    compinit
+    compinit -C -d ~/.zcompdump
 fi
 
 # alias
@@ -92,5 +92,8 @@ eval "$(zoxide init zsh)"
 # proxy
 export http_proxy=http://10.24.0.254:10888
 export https_proxy=$http_proxy
-export no_proxy="10.24.0.0/24, .yandex.net, solidwall.io"
+export HTTP_PROXY="$http_proxy"
+export HTTPS_PROXY="$https_proxy"
+export no_proxy="localhost,127.0.0.1,::1,10.24.0.0/24,.yandex.net,.solidwall.io,.proxmox.homelab"
+export NO_PROXY="$no_proxy"
 ```
