@@ -8,5 +8,4 @@
 - [vscode](./configs/vscode.md)
 - [wezterm](./configs/wezterm.md)
 - [zed](./configs/zed.md)
-- [zprofile](./configs/zprofile.md)
-- [zshrc](./configs/zshrc.md)
+- [zsh](./configs/zsh.md)
