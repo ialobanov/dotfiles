@@ -16,6 +16,8 @@ vi $HOME/.config/zsh/zprofile
 ```
 
 ```sh
+# ~/.config/zsh/zprofile
+
 # initialize homebrew environment (for Apple Silicon)
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
@@ -34,7 +36,7 @@ vi $HOME/.config/zsh/zshrc
 ```
 
 ```sh
-# ~/.zshrc
+# ~/.config/zsh/zshrc
 
 # history
 if [ -z "$HISTFILE" ]; then
