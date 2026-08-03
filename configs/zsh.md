@@ -1,22 +1,13 @@
 # zsh
 
-## zshenv
-
-```sh
-sudo tee /etc/zshenv << 'EOF' > /dev/null
-ZDOTDIR=$HOME/.config/zsh
-EOF
-mkdir -p $HOME/.config/zsh
-```
-
 ## .zprofile
 
 ```sh
-vi $HOME/.config/zsh/.zprofile
+vi $HOME/.zprofile
 ```
 
 ```sh
-# ~/.config/zsh/.zprofile
+# ~/.zprofile
 
 # initialize homebrew environment (for Apple Silicon)
 eval "$(/opt/homebrew/bin/brew shellenv)"
@@ -32,11 +23,11 @@ export OS_ACTIVITY_MODE=disable
 ## .zshrc
 
 ```sh
-vi $HOME/.config/zsh/.zshrc
+vi $HOME/.zshrc
 ```
 
 ```sh
-# ~/.config/zsh/.zshrc
+# ~/.zshrc
 
 # history
 if [ -z "$HISTFILE" ]; then
