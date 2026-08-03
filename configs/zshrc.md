@@ -1,3 +1,8 @@
+
+```sh
+sudo chmod -R g-w,o-w /opt/homebrew/share
+```
+
 ```sh
 vi ~/.zshrc
 ```
