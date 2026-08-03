@@ -87,7 +87,7 @@ gsh() {
 }
 
 ssv() {
-    cd "$HOME/Solidsoft/Projects/solidwall-vault/" || return
+    cd "$HOME/solidsoft/projects/solidwall-vault/" || return
     git add .
     { git commit -m "Update vault" || true; } &&
     git push
@@ -96,7 +96,7 @@ ssv() {
 }
 
 myv() {
-    cd "$HOME/Projects/my-vault/" || return
+    cd "$HOME/projects/my-vault/" || return
     git add .
     { git commit -m "Update vault" || true; } &&
     git push
