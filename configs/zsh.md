@@ -9,14 +9,14 @@ EOF
 mkdir -p $HOME/.config/zsh
 ```
 
-## zprofile
+## .zprofile
 
 ```sh
-vi $HOME/.config/zsh/zprofile
+vi $HOME/.config/zsh/.zprofile
 ```
 
 ```sh
-# ~/.config/zsh/zprofile
+# ~/.config/zsh/.zprofile
 
 # initialize homebrew environment (for Apple Silicon)
 eval "$(/opt/homebrew/bin/brew shellenv)"
@@ -29,14 +29,14 @@ export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
 export OS_ACTIVITY_MODE=disable
 ```
 
-## zshrc
+## .zshrc
 
 ```sh
-vi $HOME/.config/zsh/zshrc
+vi $HOME/.config/zsh/.zshrc
 ```
 
 ```sh
-# ~/.config/zsh/zshrc
+# ~/.config/zsh/.zshrc
 
 # history
 if [ -z "$HISTFILE" ]; then
