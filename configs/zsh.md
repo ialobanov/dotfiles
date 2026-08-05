@@ -96,7 +96,7 @@ myv() {
 }
 
 ua() {
-    brew update &&
+    brew update-reset &&
     brew upgrade -y &&
     brew cleanup
 }
