@@ -68,6 +68,7 @@ alias gf='git diff'
 alias bat='bat --theme=TwoDark '
 #alias ssh='kitty +kitten ssh '
 alias vkh='nvim .ssh/known_hosts'
+alias sr='source ~/.zshrc'
 
 # functions
 gsh() {
