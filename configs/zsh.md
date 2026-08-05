@@ -112,6 +112,6 @@ export http_proxy=http://10.24.0.254:10888
 export https_proxy=$http_proxy
 export HTTP_PROXY="$http_proxy"
 export HTTPS_PROXY="$https_proxy"
-export no_proxy="10.24.0.0/24,.yandex.net,.solidwall.io,.github.com"
+export no_proxy="10.24.0.0/24,.yandex.net,.solidwall.io"
 export NO_PROXY="$no_proxy"
 ```
