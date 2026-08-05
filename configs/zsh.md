@@ -12,10 +12,10 @@ vi $HOME/.zprofile
 # initialize homebrew environment (for Apple Silicon)
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
-# set up ssh agent for Bitwarden
+# set up ssh agent for bitwarden
 export SSH_AUTH_SOCK=/Users/ivan/.bitwarden-ssh-agent.sock
 
-# Fix Ansible "A worker was found in a dead state" on macOS
+# fix ansible "a worker was found in a dead state" on macos
 export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
 export OS_ACTIVITY_MODE=disable
 ```
