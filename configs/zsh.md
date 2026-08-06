@@ -115,3 +115,12 @@ export HTTPS_PROXY="$https_proxy"
 export no_proxy="10.24.0.0/24,.yandex.net,.solidwall.io"
 export NO_PROXY="$no_proxy"
 ```
+
+## brew
+
+```sh
+touch .hushlogin
+source $HOME/.zprofile
+brew -y install eza fzf zoxide gnu-tar starship neovim
+brew install --cask kitty font-jetbrains-mono-nerd-font stats
+```
