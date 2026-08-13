@@ -30,8 +30,8 @@ vi $HOME/.zshrc
 # ~/.zshrc
 
 # history
-if [ -z "$HISTFILE" ]; then
-  HISTFILE="$HOME/.zsh_history"
+if [[ -z "$HISTFILE" ]]; then
+    HISTFILE="$ZDOTDIR/.zsh_history"
 fi
 SAVEHIST=20001
 HISTSIZE=30000
