@@ -1,13 +1,24 @@
 # zsh
 
-## .zprofile
+## .zshenv
 
 ```sh
-vi $HOME/.zprofile
+vi $HOME/.zshenv
 ```
 
 ```sh
-# ~/.zprofile
+export XDG_CONFIG_HOME="${XDG_CONFIG_HOME:-$HOME/.config}"
+[[ -d "$XDG_CONFIG_HOME/zsh" ]] && export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
+```
+
+## .zprofile
+
+```sh
+vi $HOME/.config/zsh/.zprofile
+```
+
+```sh
+# ~/.config/zsh/.zprofile
 
 # initialize homebrew environment (for Apple Silicon)
 eval "$(/opt/homebrew/bin/brew shellenv)"
@@ -23,11 +34,11 @@ export OS_ACTIVITY_MODE=disable
 ## .zshrc
 
 ```sh
-vi $HOME/.zshrc
+vi $HOME/.config/zsh/.zshrc
 ```
 
 ```sh
-# ~/.zshrc
+# ~/.config/zsh/.zshrc
 
 # history
 if [[ -z "$HISTFILE" ]]; then
