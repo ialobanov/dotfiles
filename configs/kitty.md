@@ -97,18 +97,18 @@ inactive_tab_foreground #4a4a81
 inactive_tab_background #2f2f51
 
 color0  #5d6980
-color1  #ff568e
+color1  #df497b
 color2  #64de83
 color3  #FFC300
-color4  #73a9ff
+color4  #366cc4
 color5  #603fba
 color6  #62c6da
-color7  #dedeff
+color7  #e5e5f9
 color8  #53536b
 color9  #ff69a2
 color10 #73de8a
 color11 #FFC300
-color12 #85b6ff
+color12 #4385ee
 color13 #7f55f1
 color14 #71c2d9
 color15 #ebebff
