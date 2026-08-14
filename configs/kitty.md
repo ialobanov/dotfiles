@@ -101,7 +101,7 @@ color1  #ff568e
 color2  #64de83
 color3  #FFC300
 color4  #73a9ff
-color5  #946ff7
+color5  #603fba
 color6  #62c6da
 color7  #dedeff
 color8  #53536b
@@ -109,7 +109,7 @@ color9  #ff69a2
 color10 #73de8a
 color11 #FFC300
 color12 #85b6ff
-color13 #a481f7
+color13 #7f55f1
 color14 #71c2d9
 color15 #ebebff
 ```
