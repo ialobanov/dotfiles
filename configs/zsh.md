@@ -82,6 +82,10 @@ alias vkh='nvim .ssh/known_hosts'
 alias sr='source $XDG_CONFIG_HOME/zsh/.zshrc'
 
 # functions
+shl() {
+  ssh waf@10.24.0."$1"
+}
+
 gsh() {
     git add . &&
     git commit -m "." &&
