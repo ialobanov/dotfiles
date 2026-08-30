@@ -56,3 +56,25 @@ cursor-text = #6fc1ff
 selection-background = #7b91b0
 selection-foreground = #0d1117
 ```
+
+## Config alt
+
+```ini
+theme = Solarized Dark Patched
+palette = 7=#e3e3e5
+palette = 15=#f4f5f7
+foreground = #c4c4c4
+background-opacity = 0.9
+background-blur-radius = 40
+background = #031219
+font-family = "JetBrainsMonoNL Nerd Font Mono"
+font-size = 22
+window-save-state = always
+cursor-style = block
+cursor-style-blink = true
+macos-option-as-alt = left
+keybind = alt+left=unbind
+keybind = alt+right=unbind
+window-padding-x = 20
+right-click-action = copy-or-paste
+```
