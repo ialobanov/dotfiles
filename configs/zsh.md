@@ -118,7 +118,7 @@ ua() {
     brew cleanup
 }
 
-tn() {
+tm() {
     if [[ -z "$1" ]]; then
         echo "Run: tn <session-name>"
         return 1
