@@ -5,6 +5,7 @@
 - [kitty](./configs/kitty.md)
 - [nvim](./configs/nvim.md)
 - [ssh](./configs/ssh.md)
+- [tmux](./configs/tmux.md)
 - [vscode](./configs/vscode.md)
 - [wezterm](./configs/wezterm.md)
 - [zed](./configs/zed.md)

@@ -1,3 +1,16 @@
+# tmux
+
+## UNIX
+
+```~~
+mkdir -p $HOME/.config/tmux
+vim %HOME/.config/tmux/tmux.conf
+~~ ```
+
+```~~
+tmux-source $HOEM/.config/tmux/tmux.conf
+~~ ```
+
 ```ini
 set -g default-terminal "xterm-256color"
 set -ga terminal-overrides ",xterm-256color:Tc"
@@ -28,3 +41,4 @@ set -g window-status-current-style "fg=green,bg=colour240"
 set -g set-titles off
 set -g mode-style "fg=default,bg=default,reverse"
 ```
+``````

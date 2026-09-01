@@ -79,7 +79,8 @@ alias gf='git diff'
 alias bat='bat --theme=TwoDark '
 alias sshk='kitty +kitten ssh '
 alias vkh='nvim .ssh/known_hosts'
-alias sr='source $XDG_CONFIG_HOME/zsh/.zshrc'
+alias sou='source $XDG_CONFIG_HOME/zsh/.zshrc'
+alias tl='tmux list-sessions 2>/dev/null'
 
 # functions
 shl() {
@@ -115,6 +116,15 @@ ua() {
     brew update &&
     brew upgrade -y &&
     brew cleanup
+}
+
+tn() {
+    if [[ -z "$1" ]]; then
+        echo "Run: tn <session-name>"
+        return 1
+    fi
+
+    tmux new-session -A -s "$1"
 }
 
 # prompt
