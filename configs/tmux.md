@@ -1,3 +1,4 @@
+```ini
 set -g default-terminal "xterm-256color"
 set -ga terminal-overrides ",xterm-256color:Tc"
 set -g base-index 1
@@ -26,3 +27,4 @@ set -g window-status-current-style "fg=green,bg=colour240"
 
 set -g set-titles off
 set -g mode-style "fg=default,bg=default,reverse"
+```
