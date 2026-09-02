@@ -31,6 +31,10 @@ working-directory = "home"
 macos-titlebar-style = tabs
 macos-window-buttons = hidden
 bell-features = no-system
+keybind = f1=clear_screen
+keybind = f2=reload_config
+keybind = all:f3=text:exit\r
+shell-integration-features = path
 
 # theme
 palette = 0=#484f58
