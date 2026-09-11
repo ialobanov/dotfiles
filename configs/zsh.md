@@ -81,6 +81,7 @@ alias sshk='kitty +kitten ssh '
 alias vkh='nvim .ssh/known_hosts'
 alias sou='source $XDG_CONFIG_HOME/zsh/.zshrc'
 alias tl='tmux list-sessions 2>/dev/null'
+alias pssh='TERM=xterm-256color pssh'
 
 # functions
 shl() {
