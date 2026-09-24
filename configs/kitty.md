@@ -76,13 +76,8 @@ vim ~/.config/kitty/current-theme.conf
 ```
 
 ```ini
-## name: Cherry
-## author: nullxception
-## license: GPLv3
-## upstream: https://github.com/nullxception/cherry-kde/raw/main/kitty/cherry.conf
-
 foreground #bdc3df
-background #1f1f2a
+background #24273a
 selection_foreground #1f1f2a
 selection_background #bdc3df
 
@@ -90,7 +85,7 @@ cursor #bdc3df
 cursor_text_color #1f1f2a
 url_color #85b6ff
 
-tab_bar_background #1f1f2a
+tab_bar_background #24273a
 active_tab_foreground #bdc3df
 active_tab_background #454577
 inactive_tab_foreground #4a4a81
