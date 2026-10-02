@@ -76,8 +76,9 @@ vim ~/.config/kitty/current-theme.conf
 ```
 
 ```ini
+# kitty theme
 foreground #bdc3df
-background #24273a
+background #1e2030
 selection_foreground #1f1f2a
 selection_background #bdc3df
 
@@ -85,10 +86,10 @@ cursor #bdc3df
 cursor_text_color #1f1f2a
 url_color #85b6ff
 
-tab_bar_background #24273a
+tab_bar_background #1e2030
 active_tab_foreground #bdc3df
 active_tab_background #454577
-inactive_tab_foreground #4a4a81
+inactive_tab_foreground #49506f
 inactive_tab_background #2f2f51
 
 color0  #5d6980
