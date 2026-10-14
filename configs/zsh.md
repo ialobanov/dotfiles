@@ -14,6 +14,7 @@ export XDG_CONFIG_HOME="${XDG_CONFIG_HOME:-$HOME/.config}"
 ## .zprofile
 
 ```sh
+mkdir -p $HOME/.config/zsh/
 vi $HOME/.config/zsh/.zprofile
 ```
 
@@ -147,7 +148,7 @@ export NO_PROXY="$no_proxy"
 
 ```sh
 touch .hushlogin
-source $HOME/.zprofile
-brew -y install eza fzf zoxide gnu-tar starship neovim
+source $HOME/.config/zsh/.zprofile
+brew install -y eza fzf zoxide gnu-tar starship neovim
 brew install --cask kitty font-jetbrains-mono-nerd-font stats
 ```
