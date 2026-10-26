@@ -10,6 +10,7 @@ vim ~/.config/kitty/kitty.conf
 
 ```ini
 # vim:fileencoding=utf-8:foldmethod=marker
+
 # font
 font_family family='JetBrainsMono Nerd Font Mono'
 font_size 24.0
