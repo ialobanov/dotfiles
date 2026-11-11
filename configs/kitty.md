@@ -22,7 +22,7 @@ bold_italic_font auto
 window_margin_width 10
 remember_window_position yes
 #background_opacity 0.9
-background_blur 64
+background_blur 44
 sync_to_monitor yes
 cursor_blink_interval -1
 hide_window_decorations titlebar-only
@@ -47,10 +47,12 @@ macos_dock_badge_on_bell no
 paste_actions quote-urls-at-prompt,replace-dangerous-control-codes,confirm-if-large
 
 # maps
-mouse_map right press ungrabbed paste_from_clipboard
+#mouse_map right press ungrabbed paste_from_clipboard
+mouse_map right press ungrabbed,grabbed paste_from_clipboard
 copy_on_select yes
 map cmd+м paste_from_clipboard
-map f1 combine : clear_terminal scrollback active : send_text normal,application \f
+#map f1 combine : clear_terminal scrollback active : send_text normal,application \f
+map f1 combine : clear_terminal scrollback active : send_text all \f
 map f2 load_config_file
 map f3 send_text all exit\r
 map f5 send_text all gsh\r
