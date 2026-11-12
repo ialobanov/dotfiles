@@ -3,6 +3,7 @@
 - [ghostty](./configs/ghostty.md)
 - [gitconfig](./configs/gitconfig.md)
 - [kitty](./configs/kitty.md)
+- [herdr](./configs/herdr.md)
 - [nvim](./configs/nvim.md)
 - [ssh](./configs/ssh.md)
 - [tmux](./configs/tmux.md)
